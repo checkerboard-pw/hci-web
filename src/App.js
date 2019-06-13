@@ -1,25 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
+import {BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
 
+import Header from './component/layout/Header';
+import Footer from './component/layout/Footer';
+
+import About from './component/pages/About';
+import Template from './component/pages/Template';
+
 function App() {
+  let home = (
+    <h1>Home Page</h1>
+  );
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Route exact path="/" render={props => (
+          <React.Fragment>
+            {home}
+          </React.Fragment>
+        )}/>
+        <Route exact path="/about" component={About} />
+        <Route exact path="/template" component={Template} />
+        <header className="App-header">
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+        </header>
+        <Footer />
+      </div>
+    </BrowserRouter>
+    
   );
 }
 
