@@ -7,7 +7,7 @@ export class Header extends Component {
       <React.Fragment>
         <h1>Header</h1>
         <Router>
-          <Link to='/about'>About</Link> | <Link to='/template'>Template</Link>
+          <Link to='/about'>About</Link> | <Link to='/bali'>Template</Link>
         </Router>
       </React.Fragment>
     );

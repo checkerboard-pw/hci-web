@@ -1,0 +1,17 @@
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.overview {
+    flex-grow: 1;
+}
+
+.content {
+    flex-grow: 3;
+}
+
+.highlight {
+    flex-grow: 1;
+}

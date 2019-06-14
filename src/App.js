@@ -9,6 +9,9 @@ import About from './component/pages/About';
 import Template from './component/pages/Template';
 
 function App() {
+
+  //add highlight
+
   let home = (
     <h1>Home Page</h1>
   );
@@ -23,7 +26,7 @@ function App() {
           </React.Fragment>
         )}/>
         <Route exact path="/about" component={About} />
-        <Route exact path="/template" component={Template} />
+        <Route exact path="/bali" component={Template} />
         <header className="App-header">
           <p>
             Edit <code>src/App.js</code> and save to reload.
