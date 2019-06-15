@@ -5,13 +5,35 @@
 }
 
 .overview {
-    flex-grow: 1;
+    /* flex-grow: 2; */
 }
 
 .content {
-    flex-grow: 3;
+    max-width: 60%;
+}
+    /* flex-grow: 3; */
+
+.contentFlexContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.content{
+    flex: 1 1 50%;
+    text-align: justify;
+}
+
+.normFlexContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.norm{
+    flex: 1 1 40%;
 }
 
 .highlight {
-    flex-grow: 1;
+    /* flex-grow: 2; */
 }

@@ -27,11 +27,6 @@ function App() {
         )}/>
         <Route exact path="/about" component={About} />
         <Route exact path="/bali" component={Template} />
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-        </header>
         <Footer />
       </div>
     </BrowserRouter>
