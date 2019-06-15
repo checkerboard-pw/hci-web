@@ -2,8 +2,8 @@ import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
 
-import Header from './component/layout/Header';
-import Footer from './component/layout/Footer';
+// import Header from './component/layout/Header';
+// import Footer from './component/layout/Footer';
 
 import About from './component/pages/About';
 import Template from './component/pages/Template';

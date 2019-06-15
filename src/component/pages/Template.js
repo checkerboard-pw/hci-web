@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Picture from '../ui/Picture';
+// import Picture from '../ui/Picture';
 import DestinationBox from '../ui/DestinationBox';
 import styles from './style.module.css';
 
@@ -16,9 +16,7 @@ export class Template extends Component {
           <div className={styles.contentFlexContainer}>
             {entertainment.map(place => {
               return (
-                <div className={styles.content}>
-                  {/* <h3>{place.name}</h3> */}
-                  {/* {place.description.map(desc => {})} */}
+                <div className={styles.entertainment}>
                   <DestinationBox content={place} />
                 </div>
               );
@@ -114,7 +112,7 @@ export class Template extends Component {
   }
 
   render() {
-    let { name, mainImage, entertainment, culinary, accomodation, culture } = Bali;
+    let { entertainment, culinary, accomodation, culture } = Bali;
     let article = (
       <React.Fragment>
         <section>{this.parseEntertainment(entertainment)}</section>
@@ -136,7 +134,7 @@ export class Template extends Component {
           <div className={styles.overview}>
             {/* <h2>overview</h2> */}
           </div>
-          <main className={styles.content}>
+          <main className={styles.contentContainer}>
             {article}
           </main>
           <div className={styles.highlight}>

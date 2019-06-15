@@ -24,7 +24,7 @@
     /* flex-grow: 2; */
 }
 
-.content {
+.contentContainer {
     max-width: 60%;
     margin: 10%;
 }
@@ -37,12 +37,13 @@
 }
 
 .content{
-    margin: 1em;
+    margin: 2em;
     flex: 1 1 50%;
 }
 
 .content > p {
     text-align: justify;
+    font-size: 120%;
 }
 
 .normFlexContainer{
@@ -52,6 +53,12 @@
 }
 
 .norm{
+    flex: 1 1 40%;
+}
+
+.entertainment{
+    margin: 2em;
+    align-items: center;
     flex: 1 1 40%;
 }
 

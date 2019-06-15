@@ -96,7 +96,7 @@ let Bali = {
       address: "",
       description: [],
       image:{
-        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/entertainment/image11.png',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/entertainment/image7.png',
         alt: 'no image'
       },
       businessHour: "08:30 - 18:00",
