@@ -11,18 +11,21 @@ export class Template extends Component {
     let result = '';
     if (entertainment) {
       result = (
-        <React.Fragment>
+        <div>
           <h2>Entertainment</h2>
-          {entertainment.map(place => {
-            return (
-              <div>
-                <h3>{place.name}</h3>
-                {place.description.map(desc => {})}
-                <DestinationBox content={place} />
-              </div>
-            );
-          })}
-        </React.Fragment>
+          <div className={styles.contentFlexContainer}>
+            {entertainment.map(place => {
+              return (
+                <div className={styles.content}>
+                  {/* <h3>{place.name}</h3> */}
+                  {/* {place.description.map(desc => {})} */}
+                  <DestinationBox content={place} />
+                </div>
+              );
+            })}
+          </div>
+          
+        </div>
       );
     }
     return result;
@@ -38,7 +41,7 @@ export class Template extends Component {
           {culinary.map(place => {
             return (
               <div>
-                <h3>{place.name}</h3>
+                {/* <h3>{place.name}</h3> */}
                 <div className={styles.contentFlexContainer}>
                   <DestinationBox content={place} />
                   <div className={styles.content}>
@@ -63,7 +66,7 @@ export class Template extends Component {
           {accomodation.map(acc => {
             return (
               <React.Fragment>
-                <h3>{acc.name}</h3>
+                {/* <h3>{acc.name}</h3> */}
                 <div className={styles.contentFlexContainer}>
                   <DestinationBox content={acc}/>
                   <div className={styles.content}>
@@ -114,7 +117,6 @@ export class Template extends Component {
     let { name, mainImage, entertainment, culinary, accomodation, culture } = Bali;
     let article = (
       <React.Fragment>
-        {/* <Picture content={mainImage}/> */}
         <section>{this.parseEntertainment(entertainment)}</section>
         <section>{this.parseCulinary(culinary)}</section>
         <section>{this.parseAccomodation(accomodation)}</section>
@@ -125,18 +127,20 @@ export class Template extends Component {
 
     return (
       <React.Fragment>
-        <header>
-          <h1>{name}</h1>
-        </header>
+        {/* <header className="App-header">
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+        </header> */}
         <div className={styles.flexContainer}>
           <div className={styles.overview}>
-            <h2>overview</h2>
+            {/* <h2>overview</h2> */}
           </div>
           <main className={styles.content}>
             {article}
           </main>
           <div className={styles.highlight}>
-            <h2>highlight</h2>
+            {/* <h2>highlight</h2> */}
           </div>
         </div>
       </React.Fragment>

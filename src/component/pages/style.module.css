@@ -1,7 +1,23 @@
+.imageContainer {
+    position: relative;
+    text-align: center;
+    /* filter: brightness(50%); */
+}
+
+.centered {
+    color: white;
+    font-size: 500%;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
 .flexContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-align: center;
 }
 
 .overview {
@@ -10,6 +26,7 @@
 
 .content {
     max-width: 60%;
+    margin: 10%;
 }
     /* flex-grow: 3; */
 
@@ -20,7 +37,11 @@
 }
 
 .content{
+    margin: 1em;
     flex: 1 1 50%;
+}
+
+.content > p {
     text-align: justify;
 }
 

@@ -1,5 +1,3 @@
-let projectDirectory = '~/proj/binus/1920/hci-lec/hci-web/';
-
 let Bali = {
   name: "Bali",
   country: "Indonesia",
@@ -65,7 +63,7 @@ let Bali = {
       address: "Jl. Kartika Plaza, Kuta 80361, Indonesia",
       description: [],
       image:{
-        src: '',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/entertainment/image2.png',
         alt: 'no image'
       },
       businessHour: "09:00 - 18:00",
@@ -76,7 +74,7 @@ let Bali = {
       address: "Jl. Prof Ida Bagus Mantra Km, 19.8, Gianyar 80551, Indonesia",
       description: [],
       image:{
-        src: '',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/entertainment/image6.png',
         alt: 'no image'
       },
       businessHour: "",
@@ -87,7 +85,7 @@ let Bali = {
       address: "Jl. Wanagiri no. 1, Jimbaran 80361, Indonesia",
       description: [],
       image:{
-        src: '',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/entertainment/image22.png',
         alt: 'no image'
       },
       businessHour: "10:00 - 22:00",
@@ -98,7 +96,7 @@ let Bali = {
       address: "",
       description: [],
       image:{
-        src: '',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/entertainment/image11.png',
         alt: 'no image'
       },
       businessHour: "08:30 - 18:00",
@@ -118,8 +116,8 @@ let Bali = {
         }
       ], 
       image: {
-        src: projectDirectory + 'src/assets/images/culinary/image1.jpeg',
-        alt: 'no image'
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/culinary/image1.jpeg',
+        alt: ''
       },
       businessHour: "09:30 - 17.00, closed on Sunday",
       price: "around IDR 40.000 per 2pax"
@@ -136,7 +134,7 @@ let Bali = {
         }
       ], 
       image: {
-        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/picture/img.png',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/culinary/image2.jpeg',
         alt: ''
       },
       businessHour: "08:00 - 21:00 everyday",
@@ -154,7 +152,7 @@ let Bali = {
         }
       ], 
       image: {
-        src: '',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/culinary/image3.jpeg',
         alt: ''
       },
       businessHour: "08:00 - 23:00 everyday",
@@ -175,7 +173,7 @@ let Bali = {
         }
       ], 
       image: {
-        src: '',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/culinary/image4.jpeg',
         alt: ''
       },
       businessHour: "08:00 - 22:00 everyday",
@@ -193,7 +191,7 @@ let Bali = {
         }
       ], 
       image: {
-        src: '',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/culinary/image5.jpeg',
         alt: ''
       },
       businessHour: "09:00 - 17:00 everyday",
@@ -211,7 +209,7 @@ let Bali = {
         }
       ], 
       image: {
-        src: '',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/culinary/image7.jpeg',
         alt: ''
       },
       businessHour: "07:00 - 22:00 everyday",
@@ -229,7 +227,7 @@ let Bali = {
         }
       ], 
       image: {
-        src: '',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/culinary/image8.jpeg',
         alt: ''
       },
       businessHour: "09:00 - 16:00 everyday",
@@ -278,7 +276,7 @@ let Bali = {
         "Terletak strategis di Nusa Lembongan, berada dekat dengan Teluk Crystal dan Panorama Point, Bukit Taman Cottages menawarkan akomodasi dengan pemandangan laut, taman, dan Wi-Fi gratis. Beberapa unit memiliki area tempat duduk dan/atau teras.  Sarapan kontinental disajikan setiap hari di akomodasi. Terdapat juga restoran yang menyajikan spesialisasi masakan Amerika dan Asia.  Taman liburan menawarkan kolam renang outdoor.  Layanan rental sepeda tersedia di akomodasi.  Bukit Taman Cottages berjarak 2 km dari Teluk Jamur dan 2,3 km dari Devil's Tear. Bandara terdekat adalah Bandara Internasional Ngurah Rai, 87 km dari akomodasi."
       ],
       image:{
-        src: '',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/accomodation/bukit-taman-cottage/image1.jpeg',
         alt: 'no image'
       },
       businessHour: "-",
@@ -291,22 +289,42 @@ let Bali = {
         "Terletak di Ubud, Jero Sebali Villa menawarkan restoran dan Wi-Fi gratis, serta berjarak 4,4 km dari Neka Art Museum dan 6 km dari Museum Blanco Renaissance.  Teras dengan pemandangan taman ditawarkan di semua unit. Sarapan kontinental tersedia setiap pagi di vila. Jero Sebali Villa menawarkan kolam renang outdoor. Layanan rental sepeda dan mobil tersedia di akomodasi, sementara bersepeda dapat dinikmati di dekat vila. Pura Taman Saraswati berjarak 7 km dari akomodasi. Bandara terdekat adalah Ngurah Rai International, 43 km dari Jero Sebali Villa, dan akomodasi menawarkan layanan antar-jemput bandara berbayar."
       ],
       image:{
-        src: '',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/accomodation/jero-sebali-villa/image1.jpeg',
         alt: 'no image'
       },
       businessHour: "",
       price: ""
     },
     {
-      name: "",
+      name: "Bus Trans Sarbagita",
       address: "",
-      description: [],
+      description: [
+        "Jika di Jakarta kita kenal bus TransJakarta, Bali juga memiliki bus Trans Sarbagita. Bus yang beroperasi sejak 18 Agustus 2011 ini rencananya akan melayani 17 rute pemberhentian yang akan memudahkan kita untuk mengunjungi berbagai tempat di Bali.",
+        "Saat ini sudah ada 4 rute yang beroperasi yaitu koridor 1 rute Denpasar –GWK. Koridor 2 melayani rute Batubulan-Kuta Central Parking- Nusa Dua. Koridor 3 melayani rute Tabanan-Mengwi-Bandara dan koridor 4 melayani rute Pantai Lebih-Pantai Sanur-Mahendradata.",
+        "Setiap harinya bus ini beroperasi mulai pukul 05.30- 21.00 dengan harga tiket Rp3.500 bagi penumpang umum dan Rp2.500 untuk pelajar.",
+        "Untuk memudahkan akses, pengelola juga menyediakan aplikasi khusus, yaitu APLAUS (Aplikasi Layanan Angkutan Umum Sarbagita) melalui aplikasi ini kita bisa mengetahui jadwal dan rute bus, info halte, dan pantau bus agar perjalanan semakin nyaman dan mudah."
+      ],
       image:{
-        src: '',
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/accomodation/transport/image1.jpeg',
         alt: 'no image'
       },
-      businessHour: "",
-      price: ""
+      businessHour: "05:30 - 21:00",
+      price: "IDR2.500 to IDR3.500"
+    },
+    {
+      name: "Bus Kura-Kura",
+      address: "",
+      description: [
+        "Bus kura-kura adalah shuttle bus yang kini telah melayani 8 rute yang meliputi daerah-daerah wisata di Bali seperti Kuta, Legian, Seminyak, Sanur, dan Ubud. Bus yang berpusat di DFS Bus Bay di jalan Bypass Ngurah Rai Simpang Siur Kuta ini memiliki model yang unik berwarna hijau muda seperti kura-kura, dilengkapi dengan fasilitas wifi dan pendingin udara.",
+        "Dilihat dari situs kura2bus.com, bus ini memiliki dua jenis tiket yaitu single/ trip ticket dan day pass atau tiket terusan. Tarif tetap untuk single trip sebesar Rp20.000, day pass biasanya berupa kartu untuk perjalanan tanpa batas yang tersedia mulai dari perjalanan sehari dengan harga Rp100.000, tiga hari dengan harga Rp150.000 dan tujuh hari dengan harga Rp250.000.",
+        "Dengan jam operasi mulai pukul 08.30- 22.00, tiket bus ini tersedia dalam bentuk koin maupun kartu yang dapat dibeli di hotel dan mall yang telah bekerjasama sebagai tempat pemberhentian bus."
+      ],
+      image:{
+        src: 'https://raw.githubusercontent.com/checkerboard-pw/hci-web/hci/init/src/assets/images/accomodation/transport/image2.jpeg',
+        alt: 'no image'
+      },
+      businessHour: "08:30 - 22:00",
+      price: "starts from IDR20.000"
     }
   ]
 }

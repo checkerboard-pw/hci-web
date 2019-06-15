@@ -15,12 +15,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 700%;
   color: white;
+  background-image: url("https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/asia/indonesia-travel.adapt.1900.1.jpg");
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
+  font-size: 500%;
+  text-decoration: none;
+  
 }
 
 @keyframes App-logo-spin {
@@ -30,4 +34,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bali {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  background-image: url("https://t-ec.bstatic.com/images/hotel/max1024x768/151/151865425.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

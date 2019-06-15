@@ -9,25 +9,35 @@ import About from './component/pages/About';
 import Template from './component/pages/Template';
 
 function App() {
-
-  //add highlight
-
   let home = (
-    <h1>Home Page</h1>
+    <header className="App-header">
+      <p>
+        Portal Pariwisata
+      </p>
+    </header>
   );
 
   return (
     <BrowserRouter>
       <div className="App">
-        <Header />
-        <Route exact path="/" render={props => (
+        {/* <Header /> */}
+        <Route exact path="/" render={props => ( 
           <React.Fragment>
             {home}
           </React.Fragment>
         )}/>
+        <header className="bali">
+          <a
+            className="App-link"
+            href="localhost:3000/bali"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Bali
+          </a>
+        </header>
         <Route exact path="/about" component={About} />
         <Route exact path="/bali" component={Template} />
-        <Footer />
       </div>
     </BrowserRouter>
     

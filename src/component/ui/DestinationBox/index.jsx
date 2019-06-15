@@ -20,9 +20,9 @@ class DestinationBox extends React.Component {
         <h3>{this.state.name || 'DestinationBox'}</h3>
         <img className={styles.imageContainer} src={this.state.image.src || imagePlaceholder} alt={this.state.image.alt}/>
         <div>
-          <p>Business Hour: {this.state.businessHour}</p>
-          <p>Price: {this.state.price}</p>
-          <p>Address: {this.state.address}</p>
+          {this.state.businessHour ? <p>Business Hour: {this.state.businessHour}</p>: ''}
+          {this.state.price ? <p>Price: {this.state.price}</p>: ''}
+          {this.state.address ? <p>Address: {this.state.address}</p> : ''}
         </div>
       </div>
     );
